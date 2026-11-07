@@ -26,6 +26,14 @@ class Cart:
     def total_cost(self):
         return sum(item.cost for item in self.items)
 
+    def sort_by_title(self):
+        """Sắp xếp giỏ tại chỗ theo tiêu đề tăng dần."""
+        self.items.sort(key=lambda dvd: dvd.title)
+
+    def sort_by_cost(self):
+        """Sắp xếp giỏ tại chỗ theo giá tăng dần."""
+        self.items.sort(key=lambda dvd: dvd.cost)
+
     def total_cost_with_discount(self, percent):
         if not 0 <= percent <= 100:
             raise ValueError("Discount percent must be between 0 and 100")
