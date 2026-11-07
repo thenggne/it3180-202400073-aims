@@ -5,6 +5,8 @@ Số phiên bản theo Semantic Versioning.
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-07
+
 ### Added
 
 - search_by_category() tìm chuỗi con trong thể loại, không phân biệt hoa thường.
