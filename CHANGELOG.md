@@ -5,6 +5,13 @@ Số phiên bản theo Semantic Versioning.
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-07
+
+### Fixed
+
+- search_by_title() tìm tiêu đề không phân biệt hoa thường (Issue #22).
+- Thêm regression tests cho hoa/thường, từ khóa trống, không khớp và thứ tự.
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
