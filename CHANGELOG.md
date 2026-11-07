@@ -13,6 +13,7 @@ Số phiên bản theo Semantic Versioning.
 - Cart.sort_by_title() và Cart.sort_by_cost() sắp xếp giỏ tại chỗ tăng dần,
   giữ thứ tự tương đối khi khóa bằng nhau; không đổi tổng tiền.
 - Kiểm thử sắp xếp theo tiêu đề và giá, gồm giỏ trống và một đĩa.
+- GitHub Actions chạy unittest trên PR; master bắt buộc check test thành công.
 
 ### Fixed
 
