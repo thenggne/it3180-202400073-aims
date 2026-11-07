@@ -75,7 +75,10 @@ giới hạn 20 đĩa, discount và các test vẫn giữ nguyên. 4 tests OK sa
 ## Kiểm tra cuối bài
 
 - python -m unittest discover -s tests -v: 4 tests OK trên master.
-- python main.py: Total cost: 63.89 $.
+- python -X utf8 main.py: Total cost: 63.89 $.
+  Terminal của công cụ trên Windows dùng cp1252 nên python main.py không
+  in được thông báo tiếng Việt; -X utf8 bật mã hóa đầu ra phù hợp. Khi dùng
+  terminal UTF-8 có thể chạy python main.py như bình thường.
 - Không còn dấu xung đột trong mã; Issue #9 Closed; có PR revert #15.
 - release/lab03 được tạo từ master sau khi merge tài liệu này.
 - Tìm kiếm phân biệt hoa thường được giữ nguyên cho bài hotfix Lab 05.
